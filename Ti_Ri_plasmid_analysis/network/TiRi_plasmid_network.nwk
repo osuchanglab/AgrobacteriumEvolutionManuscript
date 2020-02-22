@@ -3,7 +3,7 @@
 BEGIN Taxa;
 DIMENSIONS ntax=143;
 TAXLABELS
-[1] 'pTiSAKURA'
+[1] 'pTiSAKURA__Ti_TypeIb'
 [2] 'B147_94__BV2_Ti_TypeIb'
 [3] '13-2099-1-2__G1_Ti_TypeIb'
 [4] 'LMG_305__G4_Ti_TypeIb'
@@ -16,18 +16,18 @@ TAXLABELS
 [11] '1D132__G8_Ti_TypeIb'
 [12] 'IL15__G4_Ti_TypeIb'
 [13] 'T155_95__BV2_Ri_TypeIII'
-[14] 'pRi1724'
-[15] 'NCPPB_2655'
-[16] 'NCPPB_2657'
-[17] 'K599'
+[14] 'pRi1724__Ri_TypeI'
+[15] 'NCPPB_2655__Ri_TypeI'
+[16] 'NCPPB_2657__Ri_TypeI'
+[17] 'K599__Ri_TypeI'
 [18] 'ATCC_15834__BV2_Ri_TypeIII'
 [19] 'T5_73__BV2_Ri_TypeIII'
-[20] 'A4'
+[20] 'A4__Ri_TypeIII'
 [21] 'C16_80__BV2_Ri_TypeII'
-[22] 'Di1411__BV2_Ti_TypeIa_ri'
-[23] 'AS2G3'
+[22] 'Di1411__BV2_Ri_TypeII'
+[23] 'AR13K_71reseq__Ri_TypeII'
 [24] 'AR13K_71__BV2_Ri_TypeII'
-[25] 'NCIB_8196'
+[25] 'NCIB_8196__Ri_TypeII'
 [26] 'Eu2-1NK__Aru_Ti_TypeIb'
 [27] 'Eu2-1Rg__Ti_TypeIb'
 [28] 'AS2A7__Aru_Ti_TypeIb'
@@ -53,7 +53,7 @@ TAXLABELS
 [48] 'A6__G1_Ti_TypeII'
 [49] 'K196_80__G1_Ti_TypeIII'
 [50] 'Di1472__Ask_Ti_TypeIII'
-[51] 'A47a__G1_Ti_TypeIII'
+[51] 'A4__Ri_TypeIII7a__G1_Ti_TypeIII'
 [52] 'K224__G1_Ti_TypeIII'
 [53] 'A51__G1_Ti_TypeIII'
 [54] 'K95_95__BV2_Ti_TypeIa'
@@ -73,14 +73,14 @@ TAXLABELS
 [68] 'J5a_93__BV2_Ti_TypeIb'
 [69] 'J10B_93__BV2_Ti_TypeIb'
 [70] 'Q15_94__G1_Ti_TypeVI'
-[71] 'NCPPB3554__Ti_TypeIVb'
+[71] 'NCPPB3554__Ti_TypeIVb__Ti_TypeIVb'
 [72] 'Y2_73__G1_Ti_TypeIII'
-[73] 'pTiBo542'
+[73] 'pTiBo542__Ti_TypeIII'
 [74] 'T268_95__BV3_Ti_TypeV'
 [75] 'CG678__BV3_Ti_TypeV'
 [76] 'CG78__BV3_Ti_TypeV'
 [77] 'V80_94__BV3_Ti_TypeV'
-[78] 'pTiS4'
+[78] 'pTiS4__Ti_TypeV'
 [79] 'BM37_95__BV3_Ti_TypeV'
 [80] '06-478_st__G1_Ti_TypeIII'
 [81] '06-617-1__G1_Ti_TypeIII'
@@ -98,16 +98,16 @@ TAXLABELS
 [93] 'CG412__BV3_Ti_TypeIVb'
 [94] 'AV25_95__BV3_Ti_TypeV'
 [95] 'Di1525a__G8_Ti_TypeII'
-[96] 'AtuB6'
+[96] 'B6__Ti_TypeII'
 [97] 'B140_95__G4_Ti_TypeII'
 [98] '1D1609__G7_Ti_TypeII'
-[99] 'pTiACH5'
+[99] 'pTiACH5__Ti_TypeII'
 [100] 'LMG_267__G4_Ti_TypeII'
 [101] 'Di1519__G4_Ti_TypeII'
 [102] 'AF1_95__G1_Ti_TypeII'
 [103] 'AF52_95__G1_Ti_TypeII'
 [104] 'AF82_95__G1_Ti_TypeII'
-[105] 'pTiOctopine'
+[105] 'pTiOctopine__Ti_TypeII'
 [106] 'G3_79__G1_Ti_TypeIb'
 [107] 'G9_79__G1_Ti_TypeIb'
 [108] 'G_8.3__G1_Ti_TypeIa'
@@ -145,7 +145,7 @@ TAXLABELS
 [140] 'W2_73__Aru_Ti_TypeIb'
 [141] 'N33_94__G8_Ti_TypeIb'
 [142] 'H16_79__BV2_Ti_TypeIb'
-[143] 'pTiC58'
+[143] 'pTiC58__Ti_TypeIa'
 ;
 END; [Taxa]
 
@@ -437,7 +437,7 @@ BEGIN Network;
 DIMENSIONS ntax=143 nvertices=408 nedges=539;
 DRAW to_scale rotateAbout=5.5072117;
 TRANSLATE
-2 'pTiSAKURA',
+2 'pTiSAKURA__Ti_TypeIb',
 3 'LMG_305__G4_Ti_TypeIb',
 4 '13-2099-1-2__G1_Ti_TypeIb',
 5 'J10B_93__BV2_Ti_TypeIb',
@@ -488,7 +488,7 @@ TRANSLATE
 50 'J2_75__G1_Ti_TypeIa',
 51 'J3_75__G1_Ti_TypeIa',
 52 '1D1460__G4_Ti_TypeIa',
-53 'pTiC58',
+53 'pTiC58__Ti_TypeIa',
 54 'M56_79__G1_Ti_TypeIb',
 55 'B147_94__BV2_Ti_TypeIb',
 56 'B49C_83__BV2_Ti_TypeIb',
@@ -499,7 +499,7 @@ TRANSLATE
 61 '15-1187-1-2b__G1_Ti_TypeIII',
 62 'K196_80__G1_Ti_TypeIII',
 63 'K224__G1_Ti_TypeIII',
-64 'A47a__G1_Ti_TypeIII',
+64 'A4__Ri_TypeIII7a__G1_Ti_TypeIII',
 65 'Di1472__Ask_Ti_TypeIII',
 66 'FPH-AR2__Ala_Ti_TypeIII',
 67 '06-617-1__G1_Ti_TypeIII',
@@ -521,9 +521,9 @@ TRANSLATE
 83 'Di1525a__G8_Ti_TypeII',
 84 'Di1519__G4_Ti_TypeII',
 85 'B140_95__G4_Ti_TypeII',
-86 'AtuB6',
-87 'pTiACH5',
-88 'pTiOctopine',
+86 'B6__Ti_TypeII',
+87 'pTiACH5__Ti_TypeII',
+88 'pTiOctopine__Ti_TypeII',
 89 'AF1_95__G1_Ti_TypeII',
 90 'AF82_95__G1_Ti_TypeII',
 91 'AF52_95__G1_Ti_TypeII',
@@ -531,32 +531,32 @@ TRANSLATE
 93 'CG920__G1_Ti_TypeII',
 94 'YO0101__G1_Ti_TypeII',
 95 'Y2_73__G1_Ti_TypeIII',
-96 'pTiBo542',
+96 'pTiBo542__Ti_TypeIII',
 97 'ATCC_15834__BV2_Ri_TypeIII',
-98 'A4',
+98 'A4__Ri_TypeIII',
 99 'T5_73__BV2_Ri_TypeIII',
 100 'T155_95__BV2_Ri_TypeIII',
 101 'AR13K_71__BV2_Ri_TypeII',
-102 'AS2G3',
-103 'Di1411__BV2_Ti_TypeIa_ri',
+102 'AR13K_71reseq__Ri_TypeII',
+103 'Di1411__BV2_Ri_TypeII',
 104 'C16_80__BV2_Ri_TypeII',
-105 'NCIB_8196',
-106 'pRi1724',
-107 'NCPPB_2657',
-108 'K599',
-109 'NCPPB_2655',
+105 'NCIB_8196__Ri_TypeII',
+106 'pRi1724__Ri_TypeI',
+107 'NCPPB_2657__Ri_TypeI',
+108 'K599__Ri_TypeI',
+109 'NCPPB_2655__Ri_TypeI',
 110 'AV25_95__BV3_Ti_TypeV',
 111 'V80_94__BV3_Ti_TypeV',
 112 'BM37_95__BV3_Ti_TypeV',
 113 'T268_95__BV3_Ti_TypeV',
 114 'CG678__BV3_Ti_TypeV',
 115 'CG78__BV3_Ti_TypeV',
-116 'pTiS4',
+116 'pTiS4__Ti_TypeV',
 117 'CA75_95__BV2_Ti_TypeIVc',
 118 'CA84_95__BV2_Ti_TypeIVc',
 119 'Q15_94__G1_Ti_TypeVI',
 120 'CG412__BV3_Ti_TypeIVb',
-121 'NCPPB3554__Ti_TypeIVb',
+121 'NCPPB3554__Ti_TypeIVb__Ti_TypeIVb',
 122 'T267_94__BV3_Ti_TypeIVa',
 123 'T60_94__BV3_Ti_TypeIVa',
 124 'P86_93__BV3_Ti_TypeIVa',
@@ -992,7 +992,7 @@ VERTICES
 408 -0.56412405 -0.2815579 w=2 h=2 s=n,
 ;
 VLABELS
-2 'pTiSAKURA' x=-19 y=-112 f='Dialog-PLAIN-10',
+2 'pTiSAKURA__Ti_TypeIb' x=-19 y=-112 f='Dialog-PLAIN-10',
 3 'LMG_305__G4_Ti_TypeIb' x=9 y=-127,
 4 '13-2099-1-2__G1_Ti_TypeIb' x=9 y=-101,
 5 'J10B_93__BV2_Ti_TypeIb' x=10 y=-51,
@@ -1043,7 +1043,7 @@ VLABELS
 50 'J2_75__G1_Ti_TypeIa' x=-13 y=53,
 51 'J3_75__G1_Ti_TypeIa' x=-13 y=28,
 52 '1D1460__G4_Ti_TypeIa' x=-16 y=33,
-53 'pTiC58' x=-16 y=18,
+53 'pTiC58__Ti_TypeIa' x=-16 y=18,
 54 'M56_79__G1_Ti_TypeIb' x=-15 y=18,
 55 'B147_94__BV2_Ti_TypeIb' x=-16 y=13,
 56 'B49C_83__BV2_Ti_TypeIb' x=-17 y=28,
@@ -1054,7 +1054,7 @@ VLABELS
 61 '15-1187-1-2b__G1_Ti_TypeIII' x=-16 y=23,
 62 'K196_80__G1_Ti_TypeIII' x=-19 y=23,
 63 'K224__G1_Ti_TypeIII' x=-19 y=12,
-64 'A47a__G1_Ti_TypeIII' x=-20 y=12,
+64 'A4__Ri_TypeIII7a__G1_Ti_TypeIII' x=-20 y=12,
 65 'Di1472__Ask_Ti_TypeIII' x=-21 y=22,
 66 'FPH-AR2__Ala_Ti_TypeIII' x=-18 y=12,
 67 '06-617-1__G1_Ti_TypeIII' x=-22 y=21,
@@ -1076,9 +1076,9 @@ VLABELS
 83 'Di1525a__G8_Ti_TypeII' x=-43 y=55,
 84 'Di1519__G4_Ti_TypeII' x=-42 y=80,
 85 'B140_95__G4_Ti_TypeII' x=-43 y=9,
-86 'AtuB6' x=-41 y=93,
-87 'pTiACH5' x=-54 y=23,
-88 'pTiOctopine' x=-71 y=-57,
+86 'B6__Ti_TypeII' x=-41 y=93,
+87 'pTiACH5__Ti_TypeII' x=-54 y=23,
+88 'pTiOctopine__Ti_TypeII' x=-71 y=-57,
 89 'AF1_95__G1_Ti_TypeII' x=-41 y=2,
 90 'AF82_95__G1_Ti_TypeII' x=-43 y=-8,
 91 'AF52_95__G1_Ti_TypeII' x=-41 y=-29,
@@ -1086,32 +1086,32 @@ VLABELS
 93 'CG920__G1_Ti_TypeII' x=-44 y=-15,
 94 'YO0101__G1_Ti_TypeII' x=-44 y=-35,
 95 'Y2_73__G1_Ti_TypeIII' x=-43 y=10,
-96 'pTiBo542' x=-57 y=4,
+96 'pTiBo542__Ti_TypeIII' x=-57 y=4,
 97 'ATCC_15834__BV2_Ri_TypeIII' x=-74 y=3,
-98 'A4' x=-25 y=3,
+98 'A4__Ri_TypeIII' x=-25 y=3,
 99 'T5_73__BV2_Ri_TypeIII' x=-43 y=2,
 100 'T155_95__BV2_Ri_TypeIII' x=-40 y=1,
 101 'AR13K_71__BV2_Ri_TypeII' x=-43 y=6,
-102 'AS2G3' x=-42 y=1,
-103 'Di1411__BV2_Ti_TypeIa_ri' x=-49 y=10,
+102 'AR13K_71reseq__Ri_TypeII' x=-42 y=1,
+103 'Di1411__BV2_Ri_TypeII' x=-49 y=10,
 104 'C16_80__BV2_Ri_TypeII' x=-37 y=0,
-105 'NCIB_8196' x=-62 y=-16,
-106 'pRi1724' x=-49 y=-1,
-107 'NCPPB_2657' x=-70 y=9,
-108 'K599' x=-34 y=-2,
-109 'NCPPB_2655' x=-70 y=-12,
+105 'NCIB_8196__Ri_TypeII' x=-62 y=-16,
+106 'pRi1724__Ri_TypeI' x=-49 y=-1,
+107 'NCPPB_2657__Ri_TypeI' x=-70 y=9,
+108 'K599__Ri_TypeI' x=-34 y=-2,
+109 'NCPPB_2655__Ri_TypeI' x=-70 y=-12,
 110 'AV25_95__BV3_Ti_TypeV' x=-21 y=-13,
 111 'V80_94__BV3_Ti_TypeV' x=-22 y=-13,
 112 'BM37_95__BV3_Ti_TypeV' x=-22 y=-44,
 113 'T268_95__BV3_Ti_TypeV' x=-22 y=1,
 114 'CG678__BV3_Ti_TypeV' x=-24 y=-29,
 115 'CG78__BV3_Ti_TypeV' x=-24 y=-49,
-116 'pTiS4' x=-19 y=-15,
+116 'pTiS4__Ti_TypeV' x=-19 y=-15,
 117 'CA75_95__BV2_Ti_TypeIVc' x=-21 y=-15,
 118 'CA84_95__BV2_Ti_TypeIVc' x=-20 y=-5,
 119 'Q15_94__G1_Ti_TypeVI' x=-20 y=-15,
 120 'CG412__BV3_Ti_TypeIVb' x=-22 y=-15,
-121 'NCPPB3554__Ti_TypeIVb' x=-31 y=-26,
+121 'NCPPB3554__Ti_TypeIVb__Ti_TypeIVb' x=-31 y=-26,
 122 'T267_94__BV3_Ti_TypeIVa' x=-16 y=-16,
 123 'T60_94__BV3_Ti_TypeIVa' x=-17 y=-6,
 124 'P86_93__BV3_Ti_TypeIVa' x=-16 y=-36,

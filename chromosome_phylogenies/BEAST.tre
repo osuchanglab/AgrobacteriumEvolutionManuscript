@@ -3,7 +3,7 @@
 Begin taxa;
 	Dimensions ntax=274;
 		Taxlabels
-			A4 
+			A4__Ri_TypeIII 
 			H16_79 
 			CG101_95 
 			W2_73 
@@ -86,7 +86,7 @@ Begin taxa;
 			AS2F5 
 			Eu2-1NK 
 			CM80_95 
-			AS2G3 
+			AR13K_71reseq__Ri_TypeII 
 			AS2G4 
 			Eu3-2RS 
 			CA84_95 
@@ -122,7 +122,7 @@ Begin taxa;
 			Atu_F4 
 			Atu_K84 
 			Atu_KCJ1736 
-			Atu_LBA4213_Ach5 
+			Atu_LBA4__Ri_TypeIII213_Ach5 
 			Atu_MEJ076 
 			Atu_NCPPB_3001 
 			Atu_P4 
@@ -192,7 +192,7 @@ Begin taxa;
 			JL5259 
 			JL5266 
 			AR13K_71 
-			A47a 
+			A4__Ri_TypeIII7a 
 			06-478_st 
 			YO0101 
 			06-777-2L 
@@ -201,7 +201,7 @@ Begin taxa;
 			A74a 
 			JL5285 
 			14-818c 
-			K599 
+			K599__Ri_TypeI 
 			Martelella_endophytica_YC6887 
 			Martelella_mediterranea_DSM_17316 
 			Mesorhizobium_B7 
@@ -214,9 +214,9 @@ Begin taxa;
 			Mesorhizobium_japonicum_MAFF_303099 
 			Mesorhizobium_loti_NZP2037 
 			Mesorhizobium_opportunistum_WSM2075 
-			NCIB_8196 
-			NCPPB_2655 
-			NCPPB_2657 
+			NCIB_8196__Ri_TypeII 
+			NCPPB_2655__Ri_TypeI 
+			NCPPB_2657__Ri_TypeI 
 			Nga_HAMBI_540 
 			Ochrobactrum_anthropi_ATCC_49188 
 			Ochrobactrum_anthropi_OAB 
@@ -281,7 +281,7 @@ Begin taxa;
 End;
 Begin trees;
 	Translate
-		   1 A4,
+		   1 A4__Ri_TypeIII,
 		   2 H16_79,
 		   3 CG101_95,
 		   4 W2_73,
@@ -364,7 +364,7 @@ Begin trees;
 		  81 AS2F5,
 		  82 Eu2-1NK,
 		  83 CM80_95,
-		  84 AS2G3,
+		  84 AR13K_71reseq__Ri_TypeII,
 		  85 AS2G4,
 		  86 Eu3-2RS,
 		  87 CA84_95,
@@ -400,7 +400,7 @@ Begin trees;
 		 117 Atu_F4,
 		 118 Atu_K84,
 		 119 Atu_KCJ1736,
-		 120 Atu_LBA4213_Ach5,
+		 120 Atu_LBA4__Ri_TypeIII213_Ach5,
 		 121 Atu_MEJ076,
 		 122 Atu_NCPPB_3001,
 		 123 Atu_P4,
@@ -470,7 +470,7 @@ Begin trees;
 		 187 JL5259,
 		 188 JL5266,
 		 189 AR13K_71,
-		 190 A47a,
+		 190 A4__Ri_TypeIII7a,
 		 191 06-478_st,
 		 192 YO0101,
 		 193 06-777-2L,
@@ -479,7 +479,7 @@ Begin trees;
 		 196 A74a,
 		 197 JL5285,
 		 198 14-818c,
-		 199 K599,
+		 199 K599__Ri_TypeI,
 		 200 Martelella_endophytica_YC6887,
 		 201 Martelella_mediterranea_DSM_17316,
 		 202 Mesorhizobium_B7,
@@ -492,9 +492,9 @@ Begin trees;
 		 209 Mesorhizobium_japonicum_MAFF_303099,
 		 210 Mesorhizobium_loti_NZP2037,
 		 211 Mesorhizobium_opportunistum_WSM2075,
-		 212 NCIB_8196,
-		 213 NCPPB_2655,
-		 214 NCPPB_2657,
+		 212 NCIB_8196__Ri_TypeII,
+		 213 NCPPB_2655__Ri_TypeI,
+		 214 NCPPB_2657__Ri_TypeI,
 		 215 Nga_HAMBI_540,
 		 216 Ochrobactrum_anthropi_ATCC_49188,
 		 217 Ochrobactrum_anthropi_OAB,
